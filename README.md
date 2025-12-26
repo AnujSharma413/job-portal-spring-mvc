@@ -1,18 +1,45 @@
-# Job Portal Web Application (Spring MVC)
+# Job Portal – Spring MVC (Initial Phase)
 
-This project was created during my initial learning phase of the Spring Framework.
-The purpose of this project was to understand how Java-based web applications
-work using Spring MVC, JSP, and layered architecture.
+This project represents my **initial learning phase of Spring Framework**  
+where I implemented a **JSP-based UI using Spring MVC architecture**.
 
-## Tech Stack
-- Java
+The goal of this project was to understand:
+- MVC flow in Spring
+- Controller → Service → Repository layering
+- Form handling using JSP
+- Server-side rendering before moving to React
+
+---
+
+## 🛠 Tech Stack (Initial Phase)
+- Java 21
+- Spring Boot 3
 - Spring MVC
 - JSP & JSTL
 - Maven
-- HTML, CSS, Bootstrap
 
-## Learning Outcome
-- MVC Architecture
-- Controller-Service-Repository flow
-- JSP form handling
-- Project structuring
+---
+
+## 📸 JSP UI Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### ➕ Add Job Form
+![Add Job](screenshots/addjob.png)
+
+### 📋 Job Listing
+![Job Listing](screenshots/viewalljobs.png)
+
+### ✅ Job Added Successfully
+![Job Added Success](screenshots/success.png)
+---
+
+## 🔁 Learning Progression
+After this phase, the same project was:
+- Migrated to **REST APIs**
+- Repository layer replaced with **Spring Data JPA**
+- Frontend replaced with **React**
+
+👉 Those implementations are maintained in **separate repositories**.
+
